@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"I:/Unreal Projects/Manpro/Content/Blueprints/Gamemode/GI_Manpro.uasset",
+				"I:/Unreal Projects/Manpro/Content/Maps/MainMenu.umap",
+				"I:/Unreal Projects/Manpro/Content/Blueprints/BP_Player.uasset",
+				"I:/Unreal Projects/Manpro/Content/Art/MainMenuTemp.uasset",
+				"I:/Unreal Projects/Manpro/Content/Widgets/W_MainMenu.uasset",
+				"I:/Unreal Projects/Manpro/Content/Widgets/W_TravelPlanner.uasset",
+				"I:/Unreal Projects/Manpro/Content/Art/SurabayaCity.uasset",
+				"I:/Unreal Projects/Manpro/Content/Art/Java.uasset",
+				"I:/Unreal Projects/Manpro/Content/Widgets/W_CitySelect.uasset"
+			]
+		}
+	]
+}
