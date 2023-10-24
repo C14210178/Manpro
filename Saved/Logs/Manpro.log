@@ -3999,3 +3999,21 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2023.10.24-15.31.11:486][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
 [2023.10.24-15.31.11:495][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
 [2023.10.24-15.31.11:517][824]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.10.24-15.31.38:555][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.10.24-15.31.38:557][ 40]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMenu' took 0.025
+[2023.10.24-15.31.38:557][ 40]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Engine/EngineFonts/Roboto] ([1] browsable assets)...
+[2023.10.24-15.31.38:557][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineFonts/Roboto]
+[2023.10.24-15.31.38:557][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineFonts/Roboto" FILE="C:/Users/Tata/OneDrive/Documents/Unreal Projects/Manpro/Saved/Autosaves/Engine/EngineFonts/Roboto_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.10.24-15.31.38:559][ 40]LogSavePackage: Moving output files for package: /Temp/Autosaves/Engine/EngineFonts/Roboto_Auto3
+[2023.10.24-15.31.38:559][ 40]LogSavePackage: Moving 'C:/Users/Tata/OneDrive/Documents/Unreal Projects/Manpro/Saved/Roboto_Auto35255FFA24CF3DD0F4AFD79B524260DA1.tmp' to 'C:/Users/Tata/OneDrive/Documents/Unreal Projects/Manpro/Saved/Autosaves/Engine/EngineFonts/Roboto_Auto3.uasset'
+[2023.10.24-15.31.38:561][ 40]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/W_MainMenu] ([2] browsable assets)...
+[2023.10.24-15.31.38:572][ 40]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu]
+[2023.10.24-15.31.38:573][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/W_MainMenu]
+[2023.10.24-15.31.38:573][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="C:/Users/Tata/OneDrive/Documents/Unreal Projects/Manpro/Saved/Autosaves/Game/Widgets/W_MainMenu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.10.24-15.31.38:607][ 40]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/W_MainMenu_Auto3
+[2023.10.24-15.31.38:608][ 40]LogSavePackage: Moving 'C:/Users/Tata/OneDrive/Documents/Unreal Projects/Manpro/Saved/W_MainMenu_Auto3D6D06D8A4569F9C51ED91D8C2CE74550.tmp' to 'C:/Users/Tata/OneDrive/Documents/Unreal Projects/Manpro/Saved/Autosaves/Game/Widgets/W_MainMenu_Auto3.uasset'
+[2023.10.24-15.31.38:610][ 40]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MediaPlayer/BG] ([1] browsable assets)...
+[2023.10.24-15.31.38:610][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MediaPlayer/BG]
+[2023.10.24-15.31.38:612][ 40]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/MediaPlayer/BG_Auto3
+[2023.10.24-15.31.38:613][ 40]LogSavePackage: Moving 'C:/Users/Tata/OneDrive/Documents/Unreal Projects/Manpro/Saved/BG_Auto3BA1FB0B34590D74A1C1E20BBD9969091.tmp' to 'C:/Users/Tata/OneDrive/Documents/Unreal Projects/Manpro/Saved/Autosaves/Game/Blueprints/MediaPlayer/BG_Auto3.uasset'
+[2023.10.24-15.31.38:614][ 40]LogFileHelpers: Auto-saving content packages took 0.058
