@@ -1274,3 +1274,490 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.19-07.51.31:576][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 697 ms)
 [2023.12.19-07.51.31:579][789]AssetCheck: New page: Asset Save: DT_Cities
 [2023.12.19-07.51.31:579][789]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/DT_Cities.DT_Cities
+[2023.12.19-07.55.12:363][549]LogViewport: Scene viewport resized to 1403x1313, mode Windowed.
+[2023.12.19-07.55.13:596][622]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.12.19-07.55.13:600][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.19-07.55.13:601][622]PIE: New page: PIE session: MainMenu (19 Dec 2023, 21:55:13)
+[2023.12.19-07.55.13:605][622]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.12.19-07.55.13:605][622]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.12.19-07.55.13:605][622]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.19-07.55.13:606][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001470s)
+[2023.12.19-07.55.13:606][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001529s)
+[2023.12.19-07.55.13:606][622]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-07.55.13:606][622]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-07.55.13:607][622]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.19-07.55.13:607][622]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2023.12.19-07.55.13:615][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.19-07.55.13:615][622]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.12.19-07.55.13:615][622]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.19-07.55.13:615][622]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.19-07.55.13:615][622]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.19-07.55.13:615][622]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.19-07.55.13:615][622]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.19-07.55.13:615][622]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.19-07.55.13:615][622]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.19-07.55.13:615][622]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.19-07.55.13:616][622]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.19-07.55.13:616][622]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.19-07.55.13:616][622]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.19-07.55.13:618][622]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.19-07.55.13:677][622]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.19-07.55.13:677][622]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.19-07.55.13:677][622]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.19-07.55.13:677][622]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.19-07.55.13:679][622]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.12.19-07.55.13:679][622]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.12.19-07.55.13:680][622]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.12.19-07.55.13:680][622]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.12.19-07.55.13:680][622]LogInit: FAudioDevice initialized with ID 2.
+[2023.12.19-07.55.13:680][622]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainMenu'.
+[2023.12.19-07.55.13:680][622]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.12.19-07.55.13:746][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.19-07.55.14:187][622]LogLoad: Game class is 'GI_Manpro_C'
+[2023.12.19-07.55.14:187][622]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.12.19-14.55.14
+[2023.12.19-07.55.14:187][622]LogWorld: Bringing up level for play took: 0.000665
+[2023.12.19-07.55.14:190][622]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.12.19-07.55.14:220][622]PIE: Server logged in
+[2023.12.19-07.55.14:221][622]PIE: Play in editor total start time 0.62 seconds.
+[2023.12.19-07.55.14:248][622]LogViewport: Scene viewport resized to 1363x708, mode Windowed.
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: ================================================
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: RAM used: 9.50 KiB of 819.20 MiB budget. Usage: 0.00%
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100.00%)
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Job execution time: average 0.46 s, max 0.46 s
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Job life time (pending + execution): average 0.49 s, max 0.49
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.49 s
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Average processing rate: 4.05 jobs/sec
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Total thread time: 0.402 s
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Total thread preprocess time: 0.024 s
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Percentage time preprocessing: 5.92%
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Effective parallelization: 0.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    1 times, average 0.22 sec, max 0.22 sec, min 0.22 sec)
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    1 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 55.90% of total time (compiled    1 times, average 0.22 sec, max 0.22 sec, min 0.22 sec)
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 44.10% of total time (compiled    1 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2023.12.19-07.55.14:876][650]LogShaderCompilers: Display: ================================================
+[2023.12.19-07.55.51:494][797]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CallFunc_GetCharacterArrayFromString_ReturnValue' of length 48 in '/Game/Widgets/W_Event.W_Event_C:ExecuteUbergraph_W_Event'!
+[2023.12.19-07.55.51:494][797]LogScript: Warning: Script Msg called by: W_Event_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_MasterWidget_C_0.WidgetTree_0.W_Event_C_0
+[2023.12.19-07.55.51:827][817]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CallFunc_GetCharacterArrayFromString_ReturnValue' of length 52 in '/Game/Widgets/W_Event.W_Event_C:ExecuteUbergraph_W_Event'!
+[2023.12.19-07.55.51:827][817]LogScript: Warning: Script Msg called by: W_Event_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_MasterWidget_C_0.WidgetTree_0.W_Event_C_0
+[2023.12.19-07.55.52:261][843]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CallFunc_GetCharacterArrayFromString_ReturnValue' of length 109 in '/Game/Widgets/W_Event.W_Event_C:ExecuteUbergraph_W_Event'!
+[2023.12.19-07.55.52:261][843]LogScript: Warning: Script Msg called by: W_Event_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_MasterWidget_C_0.WidgetTree_0.W_Event_C_0
+[2023.12.19-07.55.52:778][874]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CallFunc_GetCharacterArrayFromString_ReturnValue' of length 65 in '/Game/Widgets/W_Event.W_Event_C:ExecuteUbergraph_W_Event'!
+[2023.12.19-07.55.52:778][874]LogScript: Warning: Script Msg called by: W_Event_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_MasterWidget_C_0.WidgetTree_0.W_Event_C_0
+[2023.12.19-07.55.53:761][933]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'CallFunc_GetCharacterArrayFromString_ReturnValue' of length 33 in '/Game/Widgets/W_Event.W_Event_C:ExecuteUbergraph_W_Event'!
+[2023.12.19-07.55.53:761][933]LogScript: Warning: Script Msg called by: W_Event_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.W_MasterWidget_C_0.WidgetTree_0.W_Event_C_0
+[2023.12.19-07.55.53:788][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.19-07.55.53:788][933]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.19-07.55.53:789][933]LogSlate: Window 'Manpro Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.12.19-07.55.53:809][933]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-07.55.53:809][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-07.55.53:814][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.19-07.55.53:818][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-07.55.53:841][933]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.12.19-07.55.53:841][933]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.12.19-07.55.53:845][933]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.12.19-07.55.53:882][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.12.19-07.55.53:919][934]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.12.19-08.08.22:927][201]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.12.19-08.11.46:093][201]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=27352
+[2023.12.19-08.11.46:404][202]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5efdd6c9-4ddc-4480-a99d-007492d893ec}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=119.06
+[2023.12.19-08.11.46:404][202]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.19-08.11.46:405][202]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.12.19-08.16.38:232][241]Cmd: TRANSACTION UNDO
+[2023.12.19-08.16.38:232][241]LogEditorTransaction: Undo Move Row
+[2023.12.19-08.16.38:688][249]Cmd: TRANSACTION UNDO
+[2023.12.19-08.16.38:688][249]LogEditorTransaction: Undo Move Row
+[2023.12.19-08.16.39:222][299]Cmd: TRANSACTION UNDO
+[2023.12.19-08.16.39:222][299]LogEditorTransaction: Undo Move Row
+[2023.12.19-08.16.39:677][348]Cmd: TRANSACTION UNDO
+[2023.12.19-08.16.39:677][348]LogEditorTransaction: Undo Paste Property
+[2023.12.19-08.16.40:086][391]Cmd: TRANSACTION UNDO
+[2023.12.19-08.16.40:086][391]LogEditorTransaction: Undo Paste Property
+[2023.12.19-08.16.41:489][556]Cmd: TRANSACTION UNDO
+[2023.12.19-08.16.41:489][556]LogEditorTransaction: Undo Edit 11
+[2023.12.19-08.16.42:097][626]Cmd: TRANSACTION REDO
+[2023.12.19-08.16.42:097][626]LogEditorTransaction: Redo Edit 11
+[2023.12.19-08.18.36:336][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.12.19-08.18.36:339][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-08.18.36:419][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DT_Cities" FILE="../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset" SILENT=true
+[2023.12.19-08.18.36:426][886]LogSavePackage: Moving output files for package: /Game/Blueprints/DT_Cities
+[2023.12.19-08.18.36:426][886]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/DT_CitiesC2B38DAB4443360C43D7079E37ECAB68.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset'
+[2023.12.19-08.18.36:431][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 790 ms)
+[2023.12.19-08.18.36:436][886]AssetCheck: New page: Asset Save: DT_Cities
+[2023.12.19-08.18.36:436][886]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/DT_Cities.DT_Cities
+[2023.12.19-08.19.11:972][243]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/house_of_sampoerna.house_of_sampoerna (BGRA8, 720x490 x1x1x1) (Required Memory Estimate: 10.380493 MB), EncodeSpeed: Fast
+[2023.12.19-08.19.45:551][440]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/tempat_house_of_sampoerna.tempat_house_of_sampoerna (BGRA8, 1200x800 x1x1x1) (Required Memory Estimate: 28.138672 MB), EncodeSpeed: Fast
+[2023.12.19-08.20.01:726][339]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/tunjungan-plaza.tunjungan-plaza (BGRA8, 1200x1200 x1x1x1) (Required Memory Estimate: 42.176758 MB), EncodeSpeed: Fast
+[2023.12.19-08.20.06:082][837]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/TP.TP (BGRA8, 723x479 x1x1x1) (Required Memory Estimate: 10.190891 MB), EncodeSpeed: Fast
+[2023.12.19-08.20.33:925][378]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/tugu_pahlawan2.tugu_pahlawan2 (BGRA8, 750x500 x1x1x1) (Required Memory Estimate: 11.029755 MB), EncodeSpeed: Fast
+[2023.12.19-08.20.38:613][911]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/tugu_pahlawan.tugu_pahlawan (BGRA8, 750x500 x1x1x1) (Required Memory Estimate: 11.029755 MB), EncodeSpeed: Fast
+[2023.12.19-08.21.12:861][675]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/mount_bromo.mount_bromo (BGRA8, 1200x800 x1x1x1) (Required Memory Estimate: 28.138672 MB), EncodeSpeed: Fast
+[2023.12.19-08.21.18:184][289]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/gunung_bromo.gunung_bromo (BGRA8, 900x600 x1x1x1) (Required Memory Estimate: 15.855347 MB), EncodeSpeed: Fast
+[2023.12.19-08.21.51:123][432]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/mangrove.mangrove (BGRA8, 750x500 x1x1x1) (Required Memory Estimate: 11.029755 MB), EncodeSpeed: Fast
+[2023.12.19-08.21.57:002][ 96]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/mangrove_wonorejo.mangrove_wonorejo (BGRA8, 1200x900 x1x1x1) (Required Memory Estimate: 31.648193 MB), EncodeSpeed: Fast
+[2023.12.19-08.22.33:154][649]LogTexture: Display: Building textures: /Game/Art/Surabaya/Activity/surabaya-kebun_binatang.surabaya-kebun_binatang (BGRA8, 2560x1707 x1x1x1) (Required Memory Estimate: 127.865234 MB), EncodeSpeed: Fast
+[2023.12.19-08.23.05:525][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.12.19-08.23.05:526][826]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMenu' took 0.009
+[2023.12.19-08.23.05:527][826]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DT_Cities] ([1] browsable assets)...
+[2023.12.19-08.23.05:527][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DT_Cities]
+[2023.12.19-08.23.05:534][826]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DT_Cities_Auto1
+[2023.12.19-08.23.05:534][826]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/DT_Cities_Auto1959FCF91425A5C9A0C5E7681B9DBDC01.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/Autosaves/Game/Blueprints/DT_Cities_Auto1.uasset'
+[2023.12.19-08.23.05:535][826]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.12.19-08.24.57:018][495]Cmd: TRANSACTION UNDO
+[2023.12.19-08.24.57:018][495]LogEditorTransaction: Undo Remove Data Table Row
+[2023.12.19-08.24.57:554][505]Cmd: TRANSACTION UNDO
+[2023.12.19-08.24.57:554][505]LogEditorTransaction: Undo Edit 0
+[2023.12.19-08.24.58:102][567]Cmd: TRANSACTION UNDO
+[2023.12.19-08.24.58:102][567]LogEditorTransaction: Undo Add Child
+[2023.12.19-08.24.59:014][674]Cmd: TRANSACTION UNDO
+[2023.12.19-08.24.59:014][674]LogEditorTransaction: Undo Edit Key (Int)
+[2023.12.19-08.25.04:707][342]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.04:707][342]LogEditorTransaction: Redo Edit Key (Int)
+[2023.12.19-08.25.05:083][349]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.05:083][349]LogEditorTransaction: Redo Add Child
+[2023.12.19-08.25.05:649][396]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.05:649][396]LogEditorTransaction: Redo Edit 0
+[2023.12.19-08.25.06:410][485]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.06:410][485]LogEditorTransaction: Redo Remove Data Table Row
+[2023.12.19-08.25.07:794][647]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.07:794][647]LogEditorTransaction: Undo Remove Data Table Row
+[2023.12.19-08.25.09:041][793]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.09:041][793]LogEditorTransaction: Undo Edit 0
+[2023.12.19-08.25.09:516][802]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.09:516][802]LogEditorTransaction: Redo Edit 0
+[2023.12.19-08.25.09:884][837]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.09:884][837]LogEditorTransaction: Redo Remove Data Table Row
+[2023.12.19-08.25.10:489][906]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.10:489][906]LogEditorTransaction: Undo Remove Data Table Row
+[2023.12.19-08.25.10:995][963]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.10:996][963]LogEditorTransaction: Undo Edit 0
+[2023.12.19-08.25.12:549][147]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.12:549][147]LogEditorTransaction: Undo Add Child
+[2023.12.19-08.25.12:997][155]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.12:997][155]LogEditorTransaction: Undo Edit Key (Int)
+[2023.12.19-08.25.19:907][955]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.19:907][955]LogEditorTransaction: Redo Edit Key (Int)
+[2023.12.19-08.25.21:340][ 69]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.21:340][ 69]LogEditorTransaction: Undo Edit Key (Int)
+[2023.12.19-08.25.22:062][153]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.22:062][153]LogEditorTransaction: Undo Edit Value (Bool)
+[2023.12.19-08.25.24:301][401]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.24:301][401]LogEditorTransaction: Redo Edit Value (Bool)
+[2023.12.19-08.25.24:729][409]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.24:729][409]LogEditorTransaction: Redo Edit Key (Int)
+[2023.12.19-08.25.25:171][446]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.25:171][446]LogEditorTransaction: Redo Add Child
+[2023.12.19-08.25.25:776][516]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.25:776][516]LogEditorTransaction: Undo Add Child
+[2023.12.19-08.25.26:250][570]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.26:250][570]LogEditorTransaction: Undo Edit Key (Int)
+[2023.12.19-08.25.26:590][608]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.26:590][608]LogEditorTransaction: Redo Edit Key (Int)
+[2023.12.19-08.25.31:132][148]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.31:132][148]LogEditorTransaction: Redo Add Child
+[2023.12.19-08.25.31:952][191]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.31:952][191]LogEditorTransaction: Redo Edit 0
+[2023.12.19-08.25.32:724][281]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.32:724][281]LogEditorTransaction: Redo Remove Data Table Row
+[2023.12.19-08.25.33:612][383]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.33:612][383]LogEditorTransaction: Undo Remove Data Table Row
+[2023.12.19-08.25.34:419][476]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.34:419][476]LogEditorTransaction: Undo Edit 0
+[2023.12.19-08.25.34:992][541]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.34:992][541]LogEditorTransaction: Undo Add Child
+[2023.12.19-08.25.36:882][704]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.36:882][704]LogEditorTransaction: Redo Add Child
+[2023.12.19-08.25.37:380][761]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.37:380][761]LogEditorTransaction: Redo Edit 0
+[2023.12.19-08.25.38:628][908]Cmd: TRANSACTION UNDO
+[2023.12.19-08.25.38:628][908]LogEditorTransaction: Undo Edit 0
+[2023.12.19-08.25.39:167][919]Cmd: TRANSACTION REDO
+[2023.12.19-08.25.39:167][919]LogEditorTransaction: Redo Edit 0
+[2023.12.19-08.25.40:415][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.12.19-08.25.40:417][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-08.25.40:512][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DT_Cities" FILE="../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset" SILENT=true
+[2023.12.19-08.25.40:518][ 65]LogSavePackage: Moving output files for package: /Game/Blueprints/DT_Cities
+[2023.12.19-08.25.40:519][ 65]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/DT_Cities848A506D421479115353D5A92BB1BAD5.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset'
+[2023.12.19-08.25.40:524][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 898 ms)
+[2023.12.19-08.25.40:527][ 65]AssetCheck: New page: Asset Save: DT_Cities
+[2023.12.19-08.25.40:527][ 65]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/DT_Cities.DT_Cities
+[2023.12.19-08.26.24:372][ 31]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.24:372][ 31]LogEditorTransaction: Undo Edit 0
+[2023.12.19-08.26.25:045][ 55]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.25:045][ 55]LogEditorTransaction: Redo Edit 0
+[2023.12.19-08.26.26:917][277]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.26:917][277]LogEditorTransaction: Undo Edit 0
+[2023.12.19-08.26.27:490][343]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.27:490][343]LogEditorTransaction: Undo Add Child
+[2023.12.19-08.26.29:489][580]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.29:489][580]LogEditorTransaction: Undo Edit Key (Int)
+[2023.12.19-08.26.29:935][588]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.29:935][588]LogEditorTransaction: Undo Edit Value (Bool)
+[2023.12.19-08.26.30:680][666]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.30:680][666]LogEditorTransaction: Redo Edit Value (Bool)
+[2023.12.19-08.26.31:085][712]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.31:085][712]LogEditorTransaction: Redo Edit Key (Int)
+[2023.12.19-08.26.31:931][809]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.31:931][809]LogEditorTransaction: Redo Add Child
+[2023.12.19-08.26.32:353][857]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.32:353][857]LogEditorTransaction: Undo Add Child
+[2023.12.19-08.26.32:675][893]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.32:675][893]LogEditorTransaction: Undo Edit Key (Int)
+[2023.12.19-08.26.32:972][926]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.32:972][926]LogEditorTransaction: Undo Edit Value (Bool)
+[2023.12.19-08.26.35:379][212]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.35:379][212]LogEditorTransaction: Redo Edit Value (Bool)
+[2023.12.19-08.26.35:742][218]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.35:742][218]LogEditorTransaction: Redo Edit Key (Int)
+[2023.12.19-08.26.36:194][255]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.36:194][255]LogEditorTransaction: Redo Add Child
+[2023.12.19-08.26.36:607][302]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.36:607][302]LogEditorTransaction: Redo Edit 0
+[2023.12.19-08.26.37:004][347]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.37:004][347]LogEditorTransaction: Redo Remove Data Table Row
+[2023.12.19-08.26.37:946][456]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.37:946][456]LogEditorTransaction: Undo Remove Data Table Row
+[2023.12.19-08.26.38:972][575]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.38:972][575]LogEditorTransaction: Undo Edit 0
+[2023.12.19-08.26.39:474][584]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.39:474][584]LogEditorTransaction: Undo Add Child
+[2023.12.19-08.26.39:704][602]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.39:704][602]LogEditorTransaction: Redo Add Child
+[2023.12.19-08.26.39:944][628]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.39:944][628]LogEditorTransaction: Redo Edit 0
+[2023.12.19-08.26.40:283][666]Cmd: TRANSACTION REDO
+[2023.12.19-08.26.40:283][666]LogEditorTransaction: Redo Remove Data Table Row
+[2023.12.19-08.26.40:759][719]Cmd: TRANSACTION UNDO
+[2023.12.19-08.26.40:759][719]LogEditorTransaction: Undo Remove Data Table Row
+[2023.12.19-08.27.06:109][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.12.19-08.27.10:095][708]LogViewport: Scene viewport resized to 2548x1321, mode Windowed.
+[2023.12.19-08.27.13:287][ 74]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.12.19-08.27.13:290][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.19-08.27.13:291][ 74]PIE: New page: PIE session: MainMenu (19 Dec 2023, 22:27:13)
+[2023.12.19-08.27.13:291][ 74]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.19-08.27.13:293][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002002s)
+[2023.12.19-08.27.13:293][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002043s)
+[2023.12.19-08.27.13:293][ 74]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.27.13:293][ 74]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.27.13:294][ 74]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.19-08.27.13:294][ 74]LogPlayLevel: PIE: World Init took: (0.001949s)
+[2023.12.19-08.27.13:301][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.12.19-08.27.13:302][ 74]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.12.19-08.27.13:302][ 74]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.19-08.27.13:302][ 74]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.19-08.27.13:302][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.19-08.27.13:302][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.19-08.27.13:302][ 74]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.19-08.27.13:302][ 74]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.19-08.27.13:302][ 74]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.19-08.27.13:302][ 74]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.19-08.27.13:302][ 74]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.19-08.27.13:302][ 74]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.19-08.27.13:302][ 74]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.19-08.27.13:304][ 74]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.19-08.27.13:358][ 74]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.19-08.27.13:358][ 74]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.19-08.27.13:358][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.19-08.27.13:358][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.19-08.27.13:359][ 74]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.12.19-08.27.13:359][ 74]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.12.19-08.27.13:360][ 74]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.12.19-08.27.13:360][ 74]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.12.19-08.27.13:360][ 74]LogInit: FAudioDevice initialized with ID 3.
+[2023.12.19-08.27.13:360][ 74]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMenu'.
+[2023.12.19-08.27.13:360][ 74]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.19-08.27.13:463][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.19-08.27.13:464][ 74]LogLoad: Game class is 'GI_Manpro_C'
+[2023.12.19-08.27.13:464][ 74]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2023.12.19-15.27.13
+[2023.12.19-08.27.13:464][ 74]LogWorld: Bringing up level for play took: 0.000315
+[2023.12.19-08.27.13:466][ 74]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2023.12.19-08.27.13:478][ 74]PIE: Server logged in
+[2023.12.19-08.27.13:479][ 74]PIE: Play in editor total start time 0.19 seconds.
+[2023.12.19-08.27.13:504][ 74]LogViewport: Scene viewport resized to 1366x728, mode Windowed.
+[2023.12.19-08.27.24:062][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.19-08.27.24:062][325]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.19-08.27.24:063][325]LogSlate: Window 'Manpro Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.12.19-08.27.24:066][325]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-08.27.24:066][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.27.24:068][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.19-08.27.24:070][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.27.24:079][325]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.19-08.27.24:079][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.19-08.27.24:080][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.19-08.27.24:090][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.12.19-08.27.24:129][330]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.12.19-08.27.26:627][611]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2023.12.19-08.27.26:629][611]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.27.26:629][611]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.27.28:031][611]LogSlate: Took 0.003729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.12.19-08.27.31:848][  9]LogSlate: Window 'MainMenu' being destroyed
+[2023.12.19-08.27.35:294][419]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-08.27.35:294][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.27.35:366][419]LogViewport: Scene viewport resized to 2548x1361, mode Windowed.
+[2023.12.19-08.27.35:383][420]LogViewport: Scene viewport resized to 2548x1344, mode Windowed.
+[2023.12.19-08.27.35:432][421]LogViewport: Scene viewport resized to 2548x1321, mode Windowed.
+[2023.12.19-08.27.43:504][369]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Gamemode/GI_Manpro.GI_Manpro
+[2023.12.19-08.27.43:504][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.27.43:504][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.27.46:084][617]LogSlate: Window 'GI_Manpro' being destroyed
+[2023.12.19-08.28.04:446][798]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18417751648590229246
+[2023.12.19-08.28.04:446][798]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2023.12.19-08.28.19:735][597]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-08.28.19:735][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.28.19:745][597]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Gamemode/GI_Manpro.GI_Manpro
+[2023.12.19-08.28.19:745][597]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.28.19:745][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.28.26:694][386]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2023.12.19-08.28.26:695][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.28.26:695][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.28.34:797][336]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-08.28.34:797][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.28.40:446][  2]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-08.28.40:446][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.28.48:496][960]LogSlate: Last resort fallback font was requested. Font: '/Game/Fonts/Ketoprak/Ketoprak-0W6wo.Ketoprak-0W6wo', Character: '0 (U+0030)'
+[2023.12.19-08.28.48:505][960]LogSlate: Took 0.006582 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.12.19-08.29.08:078][280]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/W_MasterWidget.W_MasterWidget
+[2023.12.19-08.29.08:079][280]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.29.08:080][280]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.29.08:084][280]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.29.08:084][280]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.29.08:089][280]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.12.19-08.29.08:238][280]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.12.19-08.29.08:243][280]LogSlate: Took 0.004214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.19-08.29.12:685][791]LogSlate: Took 0.003344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.12.19-08.31.49:218][701]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.12.19-08.31.49:219][701]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.12.19-08.32.37:434][678]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.12.19-08.36.21:715][691]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.12.19-08.36.21:719][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.19-08.36.21:719][691]PIE: New page: PIE session: MainMenu (19 Dec 2023, 22:36:21)
+[2023.12.19-08.36.21:719][691]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.19-08.36.21:720][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001138s)
+[2023.12.19-08.36.21:720][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001174s)
+[2023.12.19-08.36.21:720][691]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.36.21:720][691]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.36.21:721][691]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.19-08.36.21:721][691]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2023.12.19-08.36.21:748][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.19-08.36.21:751][691]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.12.19-08.36.21:751][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.19-08.36.21:751][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.19-08.36.21:751][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.19-08.36.21:751][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.19-08.36.21:751][691]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.19-08.36.21:751][691]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.19-08.36.21:751][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.19-08.36.21:751][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.19-08.36.21:751][691]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.19-08.36.21:751][691]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.19-08.36.21:751][691]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.19-08.36.21:752][691]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.19-08.36.21:800][691]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.19-08.36.21:800][691]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.19-08.36.21:800][691]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.19-08.36.21:800][691]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.19-08.36.21:801][691]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.12.19-08.36.21:801][691]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.12.19-08.36.21:802][691]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.12.19-08.36.21:802][691]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.12.19-08.36.21:802][691]LogInit: FAudioDevice initialized with ID 4.
+[2023.12.19-08.36.21:802][691]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMenu'.
+[2023.12.19-08.36.21:802][691]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.19-08.36.21:884][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.19-08.36.21:884][691]LogLoad: Game class is 'GI_Manpro_C'
+[2023.12.19-08.36.21:884][691]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.12.19-15.36.21
+[2023.12.19-08.36.21:884][691]LogWorld: Bringing up level for play took: 0.000314
+[2023.12.19-08.36.21:886][691]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.12.19-08.36.21:899][691]PIE: Server logged in
+[2023.12.19-08.36.21:902][691]PIE: Play in editor total start time 0.183 seconds.
+[2023.12.19-08.36.21:911][691]LogViewport: Scene viewport resized to 1369x748, mode Windowed.
+[2023.12.19-08.36.36:842][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.19-08.36.36:842][576]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.19-08.36.36:842][576]LogSlate: Window 'Manpro Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.12.19-08.36.36:845][576]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-08.36.36:846][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.36.36:847][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.19-08.36.36:849][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.36.36:866][576]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.19-08.36.36:866][576]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.19-08.36.36:866][576]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.19-08.36.36:867][576]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.19-08.36.36:878][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.12.19-08.36.36:924][579]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.12.19-08.36.44:005][999]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2023.12.19-08.36.44:005][999]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.36.44:005][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.36.44:012][999]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-08.36.44:012][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-08.36.44:086][999]LogSlate: Took 0.005420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.12.19-08.39.25:170][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.12.19-08.39.25:171][391]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMenu' took 0.020
+[2023.12.19-08.39.25:171][391]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/W_MainMenu] ([2] browsable assets)...
+[2023.12.19-08.39.25:178][391]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu]
+[2023.12.19-08.39.25:178][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/W_MainMenu]
+[2023.12.19-08.39.25:209][391]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/W_MainMenu_Auto2
+[2023.12.19-08.39.25:210][391]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/W_MainMenu_Auto25F65EC2946001F69392B03BFE7236469.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/Autosaves/Game/Widgets/W_MainMenu_Auto2.uasset'
+[2023.12.19-08.39.25:211][391]LogFileHelpers: Auto-saving content packages took 0.039
+[2023.12.19-08.47.06:750][197]Cmd: TRANSACTION UNDO
+[2023.12.19-08.47.06:751][197]LogEditorTransaction: Undo Delete Child
+[2023.12.19-08.47.38:656][ 79]Cmd: TRANSACTION UNDO
+[2023.12.19-08.47.38:656][ 79]LogEditorTransaction: Undo Edit 4
+[2023.12.19-08.47.38:919][ 84]Cmd: TRANSACTION UNDO
+[2023.12.19-08.47.38:919][ 84]LogEditorTransaction: Undo Delete Child
+[2023.12.19-08.47.39:234][ 89]Cmd: TRANSACTION UNDO
+[2023.12.19-08.47.39:234][ 89]LogEditorTransaction: Undo Edit 3
+[2023.12.19-08.47.39:428][ 99]Cmd: TRANSACTION UNDO
+[2023.12.19-08.47.39:428][ 99]LogEditorTransaction: Undo Delete Child
+[2023.12.19-08.47.39:682][113]Cmd: TRANSACTION UNDO
+[2023.12.19-08.47.39:682][113]LogEditorTransaction: Undo Delete Child
+[2023.12.19-08.48.15:484][699]LogDerivedDataCache: C:/Users/Angel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.100 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20529 files in 22590 folders with total size 1407 MiB.
+[2023.12.19-08.48.31:754][662]Cmd: TRANSACTION UNDO
+[2023.12.19-08.48.31:755][662]LogEditorTransaction: Undo Edit 5
+[2023.12.19-08.52.17:769][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.12.19-08.52.17:771][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-08.52.17:848][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DT_Cities" FILE="../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset" SILENT=true
+[2023.12.19-08.52.17:856][242]LogSavePackage: Moving output files for package: /Game/Blueprints/DT_Cities
+[2023.12.19-08.52.17:856][242]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/DT_CitiesE0A156184AC01D7A4CBA8CBABD5E8A35.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset'
+[2023.12.19-08.52.17:857][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2023.12.19-08.52.17:885][242]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2023.12.19-08.52.17:886][242]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/W_MainMenuF39272C34EDA03E80A66B1B1EDAA9CA7.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Widgets/W_MainMenu.uasset'
+[2023.12.19-08.52.17:898][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 1.02 sec)
+[2023.12.19-08.52.17:901][242]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.19-08.52.17:901][242]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/DT_Cities.DT_Cities
+[2023.12.19-08.52.17:901][242]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2023.12.19-08.53.04:844][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.12.19-08.53.04:846][159]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-08.53.04:939][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2023.12.19-08.53.04:967][159]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2023.12.19-08.53.04:968][159]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/W_MainMenu570173B847016997C776D8AE9227754E.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Widgets/W_MainMenu.uasset'
+[2023.12.19-08.53.04:975][159]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 1.15 sec)
+[2023.12.19-08.53.04:977][159]AssetCheck: New page: Asset Save: W_MainMenu
+[2023.12.19-08.53.04:977][159]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2023.12.19-08.53.05:400][185]BlueprintLog: New page: Compile W_MainMenu
+[2023.12.19-08.53.05:482][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.12.19-08.53.07:972][324]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-08.53.07:972][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.53.07:976][324]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-08.53.07:977][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-08.56.04:823][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.12.19-09.05.49:329][881]Cmd: TRANSACTION UNDO
+[2023.12.19-09.05.49:329][881]LogEditorTransaction: Undo Edit TimeCost
+[2023.12.19-09.05.49:754][889]Cmd: TRANSACTION REDO
+[2023.12.19-09.05.49:754][889]LogEditorTransaction: Redo Edit TimeCost
+[2023.12.19-09.08.13:633][891]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2023.12.19-09.08.13:637][891]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-09.08.13:736][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DT_Cities" FILE="../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset" SILENT=true
+[2023.12.19-09.08.13:744][891]LogSavePackage: Moving output files for package: /Game/Blueprints/DT_Cities
+[2023.12.19-09.08.13:744][891]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/DT_Cities7233BC2F49B9EFFEE0497DB5705DC603.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset'
+[2023.12.19-09.08.13:750][891]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 1.26 sec)
+[2023.12.19-09.08.13:754][891]AssetCheck: New page: Asset Save: DT_Cities
+[2023.12.19-09.08.13:754][891]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/DT_Cities.DT_Cities
