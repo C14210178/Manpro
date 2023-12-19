@@ -1251,3 +1251,26 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.19-07.46.59:073][792]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 412 ms)
 [2023.12.19-07.46.59:077][792]AssetCheck: New page: Asset Save: DT_Cities
 [2023.12.19-07.46.59:077][792]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/DT_Cities.DT_Cities
+[2023.12.19-07.50.22:100][ 81]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.19-07.50.24:054][158]LogTexture: Display: Building textures: /Game/Art/Ubud/Activity/sacred_monkey_ubud.sacred_monkey_ubud (BGRA8, 945x630 x1x1x1) (Required Memory Estimate: 17.474113 MB), EncodeSpeed: Fast
+[2023.12.19-07.50.31:058][523]LogTexture: Display: Building textures: /Game/Art/Ubud/Activity/campuhan_ridge_walk.campuhan_ridge_walk (BGRA8, 669x446 x1x1x1) (Required Memory Estimate: 8.78875 MB), EncodeSpeed: Fast
+[2023.12.19-07.50.38:724][932]LogTexture: Display: Building textures: /Game/Art/Ubud/Activity/white_water_rafting.white_water_rafting (BGRA8, 1200x630 x1x1x1) (Required Memory Estimate: 22.172485 MB), EncodeSpeed: Fast
+[2023.12.19-07.50.45:290][290]LogTexture: Display: Building textures: /Game/Art/Ubud/Activity/museum_agung_rai.museum_agung_rai (BGRA8, 1600x1067 x1x1x1) (Required Memory Estimate: 49.99128 MB), EncodeSpeed: Fast
+[2023.12.19-07.50.46:018][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.12.19-07.50.46:022][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-07.50.46:155][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DT_Cities" FILE="../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset" SILENT=true
+[2023.12.19-07.50.46:168][332]LogSavePackage: Moving output files for package: /Game/Blueprints/DT_Cities
+[2023.12.19-07.50.46:168][332]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/DT_Cities6315855F48534682CE66289356BB00E7.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset'
+[2023.12.19-07.50.46:185][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 576 ms)
+[2023.12.19-07.50.46:187][332]AssetCheck: New page: Asset Save: DT_Cities
+[2023.12.19-07.50.46:187][332]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/DT_Cities.DT_Cities
+[2023.12.19-07.51.12:928][755]LogTexture: Display: Building textures: /Game/Art/Ubud/Food/copper_kitchen.copper_kitchen (BGRA8, 800x533 x1x1x1) (Required Memory Estimate: 12.532993 MB), EncodeSpeed: Fast
+[2023.12.19-07.51.29:975][709]LogTexture: Display: Building textures: /Game/Art/Ubud/Food/makanan_copper_kitchen.makanan_copper_kitchen (BGRA8, 1170x655 x1x1x1) (Required Memory Estimate: 22.475182 MB), EncodeSpeed: Fast
+[2023.12.19-07.51.31:454][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.12.19-07.51.31:455][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-07.51.31:549][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DT_Cities" FILE="../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset" SILENT=true
+[2023.12.19-07.51.31:559][789]LogSavePackage: Moving output files for package: /Game/Blueprints/DT_Cities
+[2023.12.19-07.51.31:560][789]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Saved/DT_CitiesF585D50445D1B4B2924EC88557944B48.tmp' to '../../../../../../Users/Angel/Documents/Unreal Projects/Manpro/Content/Blueprints/DT_Cities.uasset'
+[2023.12.19-07.51.31:576][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 697 ms)
+[2023.12.19-07.51.31:579][789]AssetCheck: New page: Asset Save: DT_Cities
+[2023.12.19-07.51.31:579][789]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/DT_Cities.DT_Cities
